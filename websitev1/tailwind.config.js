@@ -13,6 +13,9 @@ module.exports = {
         muted: "#A4B3B6", // Muted Teal Grey
         mutedgrey : "#444444",
         darkergrey: "#222222",
+      },
+      fontFamily: {
+        pixel: ['VT323', 'monospace'],
       }
     },
   },
