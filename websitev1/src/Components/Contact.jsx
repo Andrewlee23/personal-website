@@ -15,7 +15,7 @@ function Contact() {
             🐙 GitHub: github.com/Andrewlee23
           </a>
           <a href="https://twitter.com/lemonadecslol" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition">
-            🐦 Twitter: @lemonadecslol
+          📷 Instagram: @dltkdwns._
           </a>
         </div>
       </section>
