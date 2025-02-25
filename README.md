@@ -1,7 +1,7 @@
 # 🌐 My Personal Website
 
 🚀 Welcome to my personal website! This is where I showcase my work, projects, and interests.  
-🔗 **Live Link:** _Coming Soon!_
+🔗 **Live Link:** http://andrew-lee.tech/
 
 ---
 ## 🛠 Built With
