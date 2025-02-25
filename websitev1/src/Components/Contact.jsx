@@ -5,8 +5,8 @@ function Contact() {
         <p className="text-3xl font-pixel text-gray-400 mb-8">You can reach me through the following platforms:</p>
         
         <div className="font-pixel flex flex-col space-y-4 text-2xl">
-          <a href="mailto:leea7633@gmail.com" className="hover:text-blue-400 transition">
-            📧 Email: leea7633@gmail.com
+          <a href="mailto:asl2219@rit.edu" className="hover:text-blue-400 transition">
+            📧 Email: asl2219@rit.edu
           </a>
           <a href="https://linkedin.com/in/al627" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition">
             💼 LinkedIn: linkedin.com/in/al627
