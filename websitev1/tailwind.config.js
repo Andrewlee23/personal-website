@@ -11,6 +11,8 @@ module.exports = {
         accent: "#44318D", // Blueish Purple
         soft: "#E98074", // Soft Purple Pink
         muted: "#A4B3B6", // Muted Teal Grey
+        mutedgrey : "#444444",
+        darkergrey: "#222222",
       }
     },
   },

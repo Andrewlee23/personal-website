@@ -1,6 +1,6 @@
 function Contact() {
     return (
-      <section className="min-h-screen flex flex-col justify-center items-center bg-gray-900 text-white">
+      <section className="min-h-screen flex flex-col justify-center items-center bg-muted text-white">
         <h2 className="text-4xl font-bold mb-6">Get in Touch</h2>
         <p className="text-lg text-gray-400 mb-8">You can reach me through the following platforms:</p>
         

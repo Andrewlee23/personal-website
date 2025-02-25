@@ -1,5 +1,4 @@
 import { useRef } from "react";
-import Header from "../Components/Header";
 import Hero from "../Components/Hero";
 import Projects from "../Components/Projects";
 import Contact from "../Components/Contact";
@@ -15,9 +14,8 @@ function Home() {
 
   return (
     <>
-      <Header scrollToSection={scrollToSection} homeRef={homeRef} projectsRef={projectsRef} contactRef={contactRef} />
       <div ref={homeRef}>
-        <Hero scrollToSection={scrollToSection} contactRef={contactRef} />
+        <Hero scrollToSection={scrollToSection} homeRef={homeRef} projectsRef={projectsRef} contactRef={contactRef} />
       </div>
       <div ref={projectsRef}>
         <Projects />
