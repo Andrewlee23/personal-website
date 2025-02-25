@@ -14,7 +14,7 @@ function Contact() {
           <a href="https://github.com/Andrewlee23" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition">
             🐙 GitHub: github.com/Andrewlee23
           </a>
-          <a href="https://twitter.com/lemonadecslol" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition">
+          <a href="https://www.instagram.com/dltkdwns._/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition">
           📷 Instagram: @dltkdwns._
           </a>
         </div>
