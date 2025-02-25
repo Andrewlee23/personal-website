@@ -8,14 +8,14 @@ function Projects() {
   
     return (
       <section id="projects" className="text-xl py-20 bg-mutedgrey text-mutedgrey font-pixel">
-        <h2 className="text-3xl text-center font-bold text-white">My Projects</h2>
+        <h2 className="text-5xl text-center font-bold text-white">My Projects</h2>
         <div className="max-w-6xl mx-auto mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project) => (
             <div key={project.id} className="p-6 bg-soft rounded-lg shadow-lg">
-              <h3 className="text-xl font-semibold">{project.title}</h3>
+              <h3 className="text-3xl">{project.title}</h3>
               <p className="mt-2 text-2xl">{project.description}</p>
               <p className="mt-2 text-xl text-mutedgrey">Tools: {project.tools}</p>
-              <a href={project.link} className="mt-4 inline-block text-blue-400 hover:underline">
+              <a href={project.link} className="text-2xl mt-4 inline-block text-blue-400 hover:underline">
                 View Project →
               </a>
             </div>
