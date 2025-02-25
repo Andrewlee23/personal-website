@@ -1,9 +1,10 @@
 function Projects() {
     const projects = [
-      { id: 1, title: "ByteBattle", description: "2024 - 1v1 code battling, a combination of typeracer and leetcode",tools:"/React /Java /CSS", link: "https://devpost.com/software/bytebattle-7g25ck" },
-      { id: 2, title: "SmartPom", description: "2024 - Ai powered pomodoro timer", tools:"/OpenAI /Java /React /CSS", link: "https://devpost.com/software/smartpom" },
-      { id: 3, title: "SSE Website Rebuild", description: "2023 - Current Website rebuild for the society of software engineers", tools:"/TypeScript /React", link: "https://github.com/rit-sse/WebsiteTheSSEquel" },
-      { id: 4, title: "This website lol", description: "2024 - What do I even write here? you're looking at it", tools:"/React /TailwindCSS /Vite", link: "https://www.youtube.com/watch?v=VHcpSCmHqHM&ab_channel=RickRollWithDifferentLink  " },
+      { id: 1, title: "This website lol", description: "2025 - What do I even write here? you're looking at it", tools:"/React /TailwindCSS /Vite", link: "https://www.youtube.com/watch?v=VHcpSCmHqHM&ab_channel=RickRollWithDifferentLink  " },
+      { id: 2, title: "SmartPom", description: "2025 - Ai powered pomodoro timer", tools:"/OpenAI /Java /React /CSS", link: "https://devpost.com/software/smartpom" },
+      { id: 3, title: "ByteBattle", description: "2024 - 1v1 code battling, a combination of typeracer and leetcode",tools:"/React /Java /CSS", link: "https://devpost.com/software/bytebattle-7g25ck" },
+      { id: 4, title: "SSE Website Rebuild", description: "2023 - Current Website rebuild for the society of software engineers", tools:"/TypeScript /React", link: "https://github.com/rit-sse/WebsiteTheSSEquel" },
+      
     ];
   
     return (
