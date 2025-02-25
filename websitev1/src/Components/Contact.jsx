@@ -1,10 +1,10 @@
 function Contact() {
     return (
-      <section className="min-h-screen flex flex-col justify-center items-center bg-muted text-white">
-        <h2 className="text-4xl font-bold mb-6">Get in Touch</h2>
-        <p className="text-lg text-gray-400 mb-8">You can reach me through the following platforms:</p>
+      <section className="min-h-screen flex flex-col justify-center items-center bg-darkergrey text-white">
+        <h2 className="text-4xl font-pixel font-bold mb-6">Get in Touch</h2>
+        <p className="text-lg font-pixel text-gray-400 mb-8">You can reach me through the following platforms:</p>
         
-        <div className="flex flex-col space-y-4 text-lg">
+        <div className="font-pixel flex flex-col space-y-4 text-lg">
           <a href="mailto:leea7633@gmail.com" className="hover:text-blue-400 transition">
             📧 Email: leea7633@gmail.com
           </a>
