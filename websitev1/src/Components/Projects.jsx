@@ -8,8 +8,8 @@ function Projects() {
     ];
   
     return (
-      <section id="projects" className="text-xl py-20 bg-mutedgrey text-mutedgrey font-pixel">
-        <h2 className="text-5xl text-center font-bold text-white">My Projects</h2>
+      <section id="projects" className="text-xl py-20 bg-darkergrey text-mutedgrey font-pixel">
+        <h2 className="text-5xl text-center text-white">My Projects</h2>
         <div className="max-w-6xl mx-auto mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project) => (
             <div key={project.id} className="p-6 bg-soft rounded-lg shadow-lg">

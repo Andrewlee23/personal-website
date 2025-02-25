@@ -1,4 +1,4 @@
-function Hero({ scrollToSection, homeRef, projectsRef, contactRef }) {
+function Hero({ scrollToSection, homeRef, aboutRef, involvementsRef, extrasRef, projectsRef, contactRef }) {
   return (
     <section className="h-screen flex flex-col justify-center items-center bg-darkergrey text-white text-center">
       <h1 className="text-8xl font-pixel flex items-center">
@@ -9,13 +9,22 @@ function Hero({ scrollToSection, homeRef, projectsRef, contactRef }) {
       <h2 className="mt-10 text-3xl font-light font-pixel ">My personal statsheet!</h2>
       <nav className="mt-6 flex space-x-6 text-lg font-pixel">
         
-        <button onClick={() => scrollToSection(homeRef)} className="text-2xl text-pink-400 hover:underline">
+        <button onClick={() => scrollToSection(homeRef)} className="text-2xl text-pastel1 hover:underline">
           [H]<span className="text-2xl text-gray-400">ome</span>
         </button>
-        <button onClick={() => scrollToSection(projectsRef)} className="text-2xl text-blue-400 hover:underline">
+        <button onClick={() => scrollToSection(aboutRef)} className="text-2xl text-pastel2 hover:underline">
+          [A]<span className="text-2xl text-gray-400">bout</span>
+        </button>
+        <button onClick={() => scrollToSection(involvementsRef)} className="text-2xl text-pastel3 hover:underline">
+          [I]<span className="text-2xl text-gray-400">nvolvements</span>
+        </button>
+        <button onClick={() => scrollToSection(projectsRef)} className="text-2xl text-pastel4 hover:underline">
           [P]<span className="text-2xl text-gray-400">rojects</span>
         </button>
-        <button onClick={() => scrollToSection(contactRef)} className="text-2xl text-green-400 hover:underline">
+        <button onClick={() => scrollToSection(extrasRef)} className=" text-2xl text-pastel5 hover:underline">
+          [E]<span className="text-2xl text-gray-400">xtras</span>
+        </button>
+        <button onClick={() => scrollToSection(contactRef)} className="text-2xl text-pastel6 hover:underline">
           [C]<span className="text-2xl text-gray-400">ontact</span>
         </button>
       </nav>
