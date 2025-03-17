@@ -6,7 +6,6 @@ function Hero({ scrollToSection, homeRef, aboutRef, involvementsRef, extrasRef, 
       </h1>
       <p className="text-4xl mt-2 font-pixel font-weight: bold">Software Engineer / <span className="text-4xl text-yellow-400 font-pixel font-weight: bold">Gamer</span></p>
 
-      <h2 className="mt-10 text-3xl font-light font-pixel ">My personal statsheet!</h2>
       <nav className="mt-6 flex space-x-6 text-lg font-pixel">
         
         <button onClick={() => scrollToSection(homeRef)} className="text-2xl text-pastel1 hover:underline">
